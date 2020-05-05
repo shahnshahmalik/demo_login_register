@@ -1,0 +1,22 @@
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.navbar-nav>li>a{
+    text-decoration: none;
+    padding: 8px!important;
+    font-size: 14px!important;
+    color: #49badc;
+}
+.navbar-nav>li>a:hover{
+    color: #2f8da9;
+}
+.desktop-logo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+mat-toolbar{
+    background: #fff!important;
+}
